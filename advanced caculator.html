@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="advanced calculator.css" />
+</head>
+<body>
+    <div class="calculator" role="application" aria-label="Advanced Calculator">
+        <div id="display" class="display" aria-live="polite" aria-atomic="true">0</div>
+        <div class="buttons">
+            <button class="function" data-action="clear" aria-label="Clear">C</button>
+            <button class="function" data-action="backspace" aria-label="Backspace">⌫</button>
+            <button class="function" data-action="voice" aria-label="Voice Input">🎤</button>
+            <button class="function" data-action="print" aria-label="Print Invoice">🧾</button>
+            <button class="function" data-action="volume-up" aria-label="Volume Up">Vol +</button>
+            <button class="function" data-action="volume-down" aria-label="Volume Down">Vol -</button>
+            <button class="function" data-action="mute" aria-label="Mute Toggle">Mute</button>
+            <button class="function" data-action="divide" aria-label="Divide">÷</button>
+
+            <button data-value="7" aria-label="7">7</button>
+            <button data-value="8" aria-label="8">8</button>
+            <button data-value="9" aria-label="9">9</button>
+            <button class="function" data-action="multiply" aria-label="Multiply">×</button>
+            <button class="function" data-action="sqrt" aria-label="Square Root">√</button>
+
+            <button data-value="4" aria-label="4">4</button>
+            <button data-value="5" aria-label="5">5</button>
+            <button data-value="6" aria-label="6">6</button>
+            <button class="function" data-action="subtract" aria-label="Subtract">−</button>
+            <button class="function" data-action="square" aria-label="Square">x²</button>
+
+            <button data-value="1" aria-label="1">1</button>
+            <button data-value="2" aria-label="2">2</button>
+            <button data-value="3" aria-label="3">3</button>
+            <button class="function" data-action="add" aria-label="Add">+</button>
+            <button class="function" data-action="inverse" aria-label="Inverse">1/x</button>
+
+            <button data-value="0" aria-label="0" style="grid-column: span 2;">0</button>
+            <button data-value="." aria-label="Decimal point">.</button>
+            <button class="function" data-action="equals" aria-label="Equals">=</button>
+
+            <!-- Scientific function buttons -->
+            <button class="function" data-action="sin" aria-label="Sine">sin</button>
+            <button class="function" data-action="cos" aria-label="Cosine">cos</button>
+            <button class="function" data-action="tan" aria-label="Tangent">tan</button>
+            <button class="function" data-action="log" aria-label="Logarithm">log</button>
+            <button class="function" data-action="ln" aria-label="Natural Logarithm">ln</button>
+            <button class="function" data-action="exp" aria-label="Exponential">exp</button>
+            <button class="function" data-action="factorial" aria-label="Factorial">x!</button>
+        </div>
+    </div>
+    <script src="advanced calculator.js"></script>
+</body>
+</html>
